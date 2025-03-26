@@ -16,7 +16,12 @@ The Tanka installation runs the Loki cluster in microservices mode.
 
 ## Prerequisites
 
-Install the latest version of Tanka (version v0.31.0 or a more recent version) for the `tk env`
+Tanka works only with following storage backends:
+- s3
+- gcs
+
+Install the latest versiLoki is the logging engine.
+on of Tanka (version v0.31.0 or a more recent version) for the `tk env`
 commands. Prebuilt binaries for Tanka can be found at the [Tanka releases
 URL](https://github.com/grafana/tanka/releases).
 
